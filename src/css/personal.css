@@ -1,0 +1,10 @@
+.personal__descr {
+  text-indent: 30px;
+}
+
+.personal__descr::first-letter {
+  font-size: 2rem;
+  font-weight: bold;
+  color: aqua;
+  margin-right: 2px;
+}
