@@ -1,0 +1,30 @@
+.contacts__social {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  a {
+    text-decoration: none;
+    margin-right: 25px;
+    img {
+      max-width: 30px;
+      max-height: 30px;
+    }
+    &:hover {
+      svg {
+        path {
+          fill: aqua !important;
+        }
+      }
+    }
+    svg {
+      path {
+        transition: 0.3s all;
+        fill: white;
+      }
+    }
+  }
+}
+
+.contacts p {
+  text-align: center;
+}
