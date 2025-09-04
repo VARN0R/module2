@@ -1,0 +1,49 @@
+.table__wrapper {
+  border: 2px solid white;
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 800px;
+  text-align: left;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+th,
+td {
+  border: 1px solid white;
+  padding: 10px 20px;
+  max-width: 150px;
+  word-wrap: break-word;
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+tfoot td {
+  font-weight: bold;
+  font-style: italic;
+}
+
+thead th {
+  background-color: black;
+  text-align: right;
+  font-weight: bold;
+}
+
+tbody td {
+  background-color: grey;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
