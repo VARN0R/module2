@@ -20,8 +20,15 @@ tfoot {
   font-weight: bold;
 }
 
+tfoot td {
+  font-weight: bold;
+  font-style: italic;
+}
+
 thead th {
   background-color: black;
+  text-align: right;
+  font-weight: bold;
 }
 
 tbody td {
