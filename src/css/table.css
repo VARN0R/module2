@@ -1,11 +1,16 @@
-table {
-  width: 100%;
-  border-collapse: collapse;
-  text-align: left;
+.table__wrapper {
   border: 2px solid white;
   width: 600px;
   height: 400px;
   margin: 0 auto;
+  overflow: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 800px;
+  text-align: left;
 }
 
 caption {
