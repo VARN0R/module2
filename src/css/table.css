@@ -22,6 +22,8 @@ th,
 td {
   border: 1px solid white;
   padding: 10px 20px;
+  max-width: 150px;
+  word-wrap: break-word;
 }
 
 tfoot {
@@ -41,4 +43,7 @@ thead th {
 
 tbody td {
   background-color: grey;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
