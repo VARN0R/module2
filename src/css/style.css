@@ -29,6 +29,10 @@ h2 {
   text-transform: lowercase;
 }
 
+.spaced {
+  letter-spacing: 0.2em;
+}
+
 .container {
   width: 100%;
   max-width: 600px;
