@@ -16,3 +16,31 @@ body {
   color: #e5e7eb;
   height: 100vh;
 }
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1200px;
+  }
+}
