@@ -21,6 +21,10 @@ h2 {
   text-align: center;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .container {
   width: 100%;
   max-width: 600px;
