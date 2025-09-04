@@ -1,0 +1,36 @@
+.work__list,
+.work__list ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.work__list > li {
+  margin-bottom: 16px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.work__list > li::before {
+  content: "*";
+  color: aqua;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.2rem;
+}
+
+.work__list ul li {
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.work__list ul li::before {
+  content: "–";
+  color: aqua;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1rem;
+}
