@@ -51,3 +51,13 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+
+input[disabled] {
+  background-color: #f0f0f0;
+  border: 2px dashed #888;
+  color: #666;
+}
+
+input[disabled]:hover {
+  cursor: crosshair;
+}
