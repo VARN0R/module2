@@ -3,7 +3,8 @@ form {
   margin: 0 auto;
 }
 
-form input {
+form input,
+select {
   width: 100%;
   padding: 12px 18px;
   margin: 10px 0 20px 0;
@@ -14,7 +15,8 @@ form input {
   outline: none;
 }
 
-form input:focus {
+form input:focus,
+form select:focus {
   border-color: aqua;
 }
 
