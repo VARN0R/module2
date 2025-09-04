@@ -4,6 +4,10 @@
   --color-border-avatar: aqua;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   background: radial-gradient(
