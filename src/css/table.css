@@ -3,6 +3,9 @@ table {
   border-collapse: collapse;
   text-align: left;
   border: 2px solid white;
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
 }
 
 caption {
@@ -13,7 +16,7 @@ caption {
 th,
 td {
   border: 1px solid white;
-  padding: 8px;
+  padding: 10px 20px;
 }
 
 tfoot {
