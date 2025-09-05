@@ -3,6 +3,10 @@ form {
   margin: 0 auto;
 }
 
+fieldset {
+  padding: 20px;
+}
+
 form input,
 select {
   width: 100%;
