@@ -2,6 +2,7 @@
   display: grid;
   gap: 28px;
   justify-items: center;
+  padding-top: 150px;
 }
 
 .avatar-link {
