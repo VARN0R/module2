@@ -47,3 +47,9 @@ tbody td {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+@media (max-width: 768px) {
+  .table__wrapper {
+    width: 100%;
+  }
+}
