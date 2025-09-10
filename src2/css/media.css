@@ -29,6 +29,13 @@
     height: 100px;
   }
 
+  .card,
+  footer,
+  header,
+  .sidebar {
+    font-size: 0.75rem;
+  }
+
   .container {
     max-width: 720px;
   }
