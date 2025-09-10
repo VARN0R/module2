@@ -1,0 +1,6 @@
+.sidebar {
+  background-color: lightblue;
+  min-width: 200px;
+  max-width: 400px;
+  height: 50vh;
+}

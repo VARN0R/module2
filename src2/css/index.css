@@ -1,2 +1,5 @@
 @import "style.css";
+@import "media.css";
 @import "components/container.css";
+@import "components/sidebar.css";
+@import "components/main.css";

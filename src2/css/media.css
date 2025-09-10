@@ -1,0 +1,18 @@
+@media (max-width: 1024px) {
+  .main-content-wrapper {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    min-width: unset;
+    max-width: unset;
+    max-height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    height: 100px;
+  }
+}

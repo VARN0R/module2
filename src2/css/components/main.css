@@ -1,0 +1,9 @@
+main {
+  flex-grow: 1;
+  background-color: #eee;
+}
+
+.main-content-wrapper {
+  display: flex;
+  gap: 20px;
+}
