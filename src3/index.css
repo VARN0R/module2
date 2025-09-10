@@ -9,6 +9,15 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: linear-gradient(135deg, #011229, #054864);
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 10px;
 }
 
 .card {
@@ -23,14 +32,14 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s all;
 }
 
-h2 {
-  margin-top: 10px;
-}
-
-p {
-  margin-top: 10px;
+.card:hover {
+  transform: scale(1.1) translate(-50px, -50px);
+  background: linear-gradient(135deg, #311457, #0f344d);
+  opacity: 0.8;
 }
 
 .card__img {
