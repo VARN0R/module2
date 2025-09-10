@@ -36,10 +36,14 @@ p {
   transition: 0.3s all;
 }
 
-.card:hover {
+.card:hover:not(.clicked) {
   transform: scale(1.1) translate(-50px, -50px);
   background: linear-gradient(135deg, #311457, #0f344d);
   opacity: 0.8;
+}
+
+.clicked {
+  transform: scale(0.9) rotateY(15deg) skewX(-5deg);
 }
 
 .card__img {

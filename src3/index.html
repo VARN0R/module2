@@ -7,7 +7,7 @@
     <title>Stage5</title>
   </head>
   <body>
-    <div class="card">
+    <div class="card" id="myCard">
       <div class="card__img">
         <img class="card-image" src="guitar.jpg" alt="guitar" />
       </div>
@@ -17,5 +17,12 @@
         to eye.
       </p>
     </div>
+    <script>
+      const card = document.getElementById("myCard");
+
+      card.addEventListener("click", () => {
+        card.classList.toggle("clicked");
+      });
+    </script>
   </body>
 </html>
