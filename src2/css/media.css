@@ -9,10 +9,31 @@
     max-width: unset;
     max-height: 100px;
   }
+
+  .cards-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .container {
+    max-width: 960px;
+  }
+
+  .card {
+    min-width: unset;
+    max-height: unset;
+  }
 }
 
 @media (max-width: 768px) {
   .sidebar {
     height: 100px;
+  }
+
+  .container {
+    max-width: 720px;
+  }
+
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
