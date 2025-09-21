@@ -7,22 +7,12 @@
     <title>Stage5</title>
   </head>
   <body>
-    <div class="card" id="myCard">
-      <div class="card__img">
+    <input type="checkbox" id="myCheck" class="myCheck" />
+    <label for="myCheck" class="card">
+      <figure class="card__img">
         <img class="card-image" src="guitar.jpg" alt="guitar" />
-      </div>
-      <h2>Music</h2>
-      <p>
-        Inspires me. Keeps my heart beating. Makes my soul ache. Brings a tear
-        to eye.
-      </p>
-    </div>
-    <script>
-      const card = document.getElementById("myCard");
-
-      card.addEventListener("click", () => {
-        card.classList.toggle("clicked");
-      });
-    </script>
+        <figcaption>Гитара черная</figcaption>
+      </figure>
+    </label>
   </body>
 </html>
